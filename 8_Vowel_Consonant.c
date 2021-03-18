@@ -18,7 +18,6 @@ int main(){ //Start of the main function body.
         else
         {
             printf("'%c' is not an alphabet.", ch); //If it is neither vowel nor consonant,then it is not an alphabet.
-         
         }
     return 0;   //Return statment.
 }   //End of the main function body.
