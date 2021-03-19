@@ -11,7 +11,7 @@ int main(){ //Start of the main function body.
         printf("'%c' is Vowel.", ch);
     }
     else 
-        if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))     // Condition for consonant
+        if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))     // Condition for consonant.
         {
             printf("'%c' is Consonant.", ch);
         }
