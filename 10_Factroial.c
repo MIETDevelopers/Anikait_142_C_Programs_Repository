@@ -1,7 +1,7 @@
 #include<stdio.h>	//Pre processor directive to inclide standard input and output function header file.  
 int main()    
 {	//Start of the main function body.  
-	int number,Factorial=1,i;    
+	int number,i,Factorial=1;    
 	printf("Enter a number: ");    
  	scanf("%d",&number);
 
