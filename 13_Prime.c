@@ -1,22 +1,24 @@
-#include <stdio.h>      //Pre processor directive to inclide standard input and output function header file.  
-int main(){  //Start of the main function body
-    int n, i, count = 0;
- 
-    printf("Enter number to check prime number or not : ");
-    scanf("%d",&n);
-    //for loop to check prime
-    for(i=2; i<=n/2; ++i)
-    {
-        if(n%i==0)  // check for non prime number
-        {
-            count=1;
-            break;
-        }
-    }
-    //if count equal to zero then n is prime
-    if (count==0)
-        printf("%d is a prime number.",n);
+#include<stdio.h>   ////Pre processor directive to inclide standard input and output function header file. 
+  int main(){   //Start of the main function body 
+    int n, count = 2, num = 1;  
+  
+    printf("Enter a number you want to check : ");  
+    scanf("%d", &n);  
+    // while loop for prime
+    while(count < n)  
+    {  
+        if(n%count == 0)  //Is a prime number logic if num equal to zero.
+        {  
+            num = 0;  
+            break;  
+        }  
+        count++;  
+    }  
+    //If num equal to zero then it is not a prime or else. 
+    if(num == 0 )
+        printf("%d is not prime number\n", n);  
     else
-        printf("%d is not a prime number.",n);
-    return 0;   //Return statment    
-}    //End of the main function body
+        printf("%d is  prime number\n", n);  
+  
+    return 0;   //Return statment 
+}   //End of the main function body 
