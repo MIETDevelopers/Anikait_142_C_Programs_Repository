@@ -1,5 +1,5 @@
 #include<stdio.h>	//Pre processor directive to inclide standard input and output function header file.
-int main(){		//Start of the main function body.
+int main(){		//Start of the main function body.                             
 	float raduisOfCircle, sideOfSquare, legthOfRectangle, breadthOfRectangle;	//Variable decleration of data type float.
 	printf("Enter value of radius of circle:");	//printf function call for entring.
 	scanf(" %f", &raduisOfCircle);
