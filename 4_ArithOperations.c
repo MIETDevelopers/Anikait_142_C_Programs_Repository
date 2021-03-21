@@ -25,5 +25,5 @@ int main(){	//Start of the main function body.
 		default:
 			printf("Error operator is not correct");
 	}
-	return 0;	//Retuen statement.
+	return 0;	//Return statement.
 }	//End of main function body.
