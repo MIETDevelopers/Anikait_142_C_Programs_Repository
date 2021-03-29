@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Area and Perimeter of Circle, Square and Rectangle.
+
 #include<stdio.h>	//Pre processor directive to include standard input and output function header file.	
 int main(){	//Start of the main function body.
 	float raduisOfCircle, sideOfSquare, legthOfRectangle, breadthOfRectangle;	//Variables decleration of data type float.
