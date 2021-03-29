@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Searching an element in an array using linear search.
+
 #include<stdio.h>   //Pre processor directive to include standard input output function header file.
 int main(){ //Start of main function body.
 	int n, i, j; //Integer variables and array declaration.
