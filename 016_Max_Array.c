@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: To find max element and index in array.
+
 #include <stdio.h>	//Pre processor directive to include standard input output function header file.
 int main(){	//Start of the main function body.
   	int array[100], size, c, location = 0;	//Integer variables and array declaration.
