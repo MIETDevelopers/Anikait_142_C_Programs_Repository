@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Program to perform  matrix multiplication.
+
 #include<stdio.h>	//Pre processor directive to include standard input and output function header file.
 int main () //Main function defination.
 {	//Start of main function body.
