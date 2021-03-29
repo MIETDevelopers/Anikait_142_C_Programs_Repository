@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Arithmetic operations using addition, subtraction, multiplication and remainder operator.
+
 #include <stdio.h>	//Pre processor directive to include standard input output function header file.	
 int main(){	//Start of the main function body.
 	char operator;	//Variable decleration of data type character.
