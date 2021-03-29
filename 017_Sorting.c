@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Sorting an array using insertion sort.
+
 #include<stdio.h>
 int main(){
 	int n, i, j, temp = 0; //Integer variables and array declaration.
