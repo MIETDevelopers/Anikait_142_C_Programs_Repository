@@ -2,7 +2,7 @@
 //Creation date: 28 Mar,2021
 //Purpose: To demonstrate the use of various string operations.
 
-#include <stdio.h>		//End of main function body.//Pre-Process directive to include standard input output header file
+#include <stdio.h>	//Pre-Process directive to include standard input output header file
 #include <string.h>	//Pre-Process directive to include string input output header file
 int main(){	//Start of main function body.
     //String Declaration
@@ -14,5 +14,5 @@ int main(){	//Start of main function body.
 
     puts(nickname);
 
-    return 0;	//return statment.
+    return 0;	//return statement.
 }	//End of main function body.
