@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Find Euclidean distance between two points in a plane. 
+
 #include<stdio.h>	//Pre processor directive to inclide standard input and output function header file.
 #include <math.h>	//Pre processor directive to inclide math function header file.
 int main(){	//Start of the main function body.
