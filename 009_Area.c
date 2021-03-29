@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Area of Circle, Square and Rectangle based on user choice.
+
 #include<stdio.h>	//Pre processor directive to inclide standard input and output function header file.
 int main(){		//Start of the main function body.                             
 	float raduisOfCircle, sideOfSquare, legthOfRectangle, breadthOfRectangle;	//Variable decleration of data type float.
