@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Calculate sum of digits of a number using while loop.
+
 #include <stdio.h>  //Pre processor directive to include standard input output function header file.
 
 int main(){ //Start of the main function body.
