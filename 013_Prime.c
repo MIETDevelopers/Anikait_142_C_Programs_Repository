@@ -1,4 +1,8 @@
-#include<stdio.h>   ////Pre processor directive to inclide standard input and output function header file. 
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Check if a number is prime or not using while loop.
+
+#include<stdio.h>   //Pre processor directive to inclide standard input and output function header file. 
   int main(){   //Start of the main function body 
     int n, count = 2, num = 1;  
   
