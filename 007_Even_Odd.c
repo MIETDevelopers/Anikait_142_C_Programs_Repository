@@ -1,3 +1,7 @@
+//Author: Anikait Singh
+//Creation date: 28 Mar,2021
+//Purpose: Number is even or odd.
+
 #include <stdio.h>	//Pre processor directive to inclide standard input and output function header file.
 int main() {	//Start of the main function body.
     int num;	//Integer variable decleration.
