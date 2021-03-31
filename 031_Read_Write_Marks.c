@@ -8,7 +8,7 @@ struct s{	//Start of structure body.
 	//Creating a user defined data type using structures.
 	char name[50];	//Member array name.
 	int RollNo;	//Member variable.
-	int Marks;	//Member varaiabe.
+	int Attendance;	//Member varaiabe.
 };	//End of structure body.
 
 int main(){	//Start of main function body.
@@ -24,8 +24,8 @@ int main(){	//Start of main function body.
 		gets(a[i].name);	//reads
 		printf("Enter Roll Number: ");	//printf calling to print enter roll number.
 		scanf("%d",&a[i].RollNo);	//scanf calling to input user input.
-		printf("Enter Marks: ");	//printf calling to enter marks.
-		scanf("%d",&a[i].Marks);	//scanf calling to input user input.
+		printf("Enter Attendance percentage: ");	//printf calling to enter marks.
+		scanf("%d",&a[i].Attendance);	//scanf calling to input user input.
 	}//End of loop body
 	
 	//Writing program.
@@ -37,7 +37,7 @@ int main(){	//Start of main function body.
 
 	for (i=0;i<1;++i) 
 	{	//start of for loop body
-		printf("	Name: %s\n	Roll Number: %d\n	Marks: %d",b[i].name,b[i].RollNo,b[i].Marks); //Printing the entered text.
+		printf("	Name: %s\n	Roll Number: %d\n	Attendance: %d",b[i].name,b[i].RollNo,b[i].Attendance); //Printing the entered text.
 	}	//End of for loop body
 	
 	fclose(fptr);	 //Closing the program.
