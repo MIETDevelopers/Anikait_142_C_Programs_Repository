@@ -3,9 +3,8 @@
 //Purpose: 1D and 2D arrays passed as arguments to a single function and the function implementation should simply print those arrays passed as arguments.
 
 #include <stdio.h>	//Preprocessor directive to include standard input output header file
-//Start of the main body function
 void Arrays(int arr1[],int arr2[][3] );
-int main() {
+int main() {	//Start of the main body function.
  int x,y;
     int _1Array[5]; //declaring a 2D array with 2 rows and 3 columns.
     int _2Array[2][3]; //declaring a 2D array with 2 rows and 3 columns.
@@ -25,8 +24,8 @@ int main() {
     Arrays(_1Array,_2Array);
 
 	return 0;	//return statement
-}
-//End of the main body function
+}	//End of the main body function
+
 void Arrays(int arr1[],int arr2[][3]) {
 
     //1st array.
