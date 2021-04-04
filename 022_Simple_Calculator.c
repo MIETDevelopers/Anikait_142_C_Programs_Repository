@@ -1,6 +1,6 @@
 //Author: Anikait Singh
 //Creation date: 28 Mar,2021
-//Purpose: A C program to create Simple Calculator using switch case and function for every operation.
+//Purpose: A C program to create Simple Calculator using switch case for every operation.
 
 #include <stdio.h>	//Pre processor directive to include standard input output function header file.	
 int main(){	//Start of the main function body.
@@ -31,3 +31,43 @@ int main(){	//Start of the main function body.
 	}
 	return 0;	//Return statement.
 }	//End of main function body.
+
+//A C program to create Simple Calculator using function for every operation.
+
+#include <stdio.h>
+//function start
+double cal(double val1, double val2, char ope)
+{
+    if(ope == '+'){
+        printf("Addition of two numbers is %lf ", val1 + val2);
+    }
+    else if(ope == '-'){
+            printf("Subtraction of two numbers is %lf ", val1 - val2);
+        }
+    else if(ope == '*'){
+            printf("Multiplication of two numbers is %lf ", val1 * val2); 
+        }
+    else if(ope == '/'){
+            printf("Division of two numbers is %lf ", val1 / val2);
+        }
+    else{
+        printf("Invalid operator");
+    }
+} //function end
+
+int main(){ //Start of main function body.
+    double val1 , val2;
+    char ope;
+
+    printf("Enter First Number ");
+    scanf("%lf", &val1);
+
+    printf("Enter Second Number ");
+    scanf("%lf", &val2);
+
+    printf("Enter '+' for Add\n '-' for Sub\n '*' for Mul\n '/' for Div\n");
+    scanf(" %c", &ope);
+
+    cal(val1,val2,ope); //calling function
+    return 0;
+}   //End of main function body.
