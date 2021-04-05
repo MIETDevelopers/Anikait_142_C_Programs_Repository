@@ -20,7 +20,7 @@ int main(){ //Start of main function body.
         printf("Enter first name: ");
         scanf("%s", s[i].firstName);
         printf("Enter percentage: ");
-        scanf("%f%", &s[i].percentage);
+        scanf("%f", &s[i].percentage);
     }
     printf("Displaying Information:\n\n");
 
@@ -29,7 +29,7 @@ int main(){ //Start of main function body.
         printf("\nRoll number: %d\n", i + 1);
         printf("First name: ");
         puts(s[i].firstName);
-        printf("Percentage: %.2f%", s[i].percentage);
+        printf("Percentage: %.2f", s[i].percentage);
         printf("\n");
     }
     return 0;   //Return statement. 
